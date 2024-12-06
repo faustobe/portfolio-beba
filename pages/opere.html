@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opere - Beba</title>
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">BEBA</div>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-menu">
+                <!-- Menu popolato da JavaScript -->
+            </ul>
+        </div>
+    </nav>
+
+    <main class="opere-page">
+        <div class="container">
+            <h1>works</h1>
+            
+            <div class="filtri">
+                <button class="filter-btn active" data-filter="tutti">Tutti</button>
+                <button class="filter-btn" data-filter="ritratti">Ritratti</button>
+                <button class="filter-btn" data-filter="figure">Figure</button>
+                <button class="filter-btn" data-filter="astratti">Astratti</button>
+            </div>
+
+            <div class="opere-grid">
+                <!-- Gli elementi della griglia verranno popolati dinamicamente -->
+                <article class="opera-item" data-category="ritratti">
+                    <div class="opera-image">
+                        <img src="../assets/images/opere/opera1.jpg" alt="Opera 1">
+                    </div>
+                    <div class="opera-info">
+                        <h2>Titolo Opera</h2>
+                        <p>2024 - Tecnica mista su carta</p>
+                        <p>Dimensioni: 50x70cm</p>
+                    </div>
+                </article>
+                <!-- Altri elementi opera-item simili -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Beba. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
